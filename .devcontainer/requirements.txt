@@ -1,0 +1,13 @@
+notebook==7.2.2
+pandas==2.2.3
+numpy==1.26.4
+matplotlib==3.10.0
+scipy==1.13.1
+scikit-learn==1.5.2
+seaborn==0.13.2
+tensorflow==2.18.0
+keras==3.8.0
+tqdm==4.66.5
+visualkeras==0.1.4
+mat73==0.65
+
