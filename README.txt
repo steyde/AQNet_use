@@ -1,4 +1,6 @@
 date: 11 Feb. 2025
+
+Last Update: 16/05/2025
 authors: Giulio Steyde, Luca Subitoni - Politecnico di Milano
 
 This folder, or Docker, contains the trained models, dependencies and an example dataset to try out the Nets
@@ -8,6 +10,4 @@ Matonia A, Jezewski J, Kupka T, Jezewski M, Horoba K, Wrobel J, Czabanski R, Kah
 
 The "main" file shows a usage example
 
-NetV1: trained with Napami, SANF and overnight recording. All have a portion in test
-NetV2: trained with Napami, SANF. All have a portion in test.
-NetV3: trained with Napami, SANF. SANF is all in train.
+The DNN has been trained with Napami + PASS
