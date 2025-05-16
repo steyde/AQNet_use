@@ -1,0 +1,10 @@
+{
+    "name": "Jupyter Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [8888],
+    "mounts": ["source=${localWorkspaceFolder},target=/app,type=bind"],
+    "postCreateCommand": "pip install --no-cache-dir -r /app/requirements.txt",
+    "remoteUser": "root"
+}
