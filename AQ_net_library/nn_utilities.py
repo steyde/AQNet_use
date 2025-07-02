@@ -386,6 +386,22 @@ def UseNet(signal, model, sigma, Transition,  Threshold, MinLen, invalid_samples
     # Returning the Neural Network predictions
     return predictions[:original_signal_length], softmax_prediction_list[:original_signal_length]
 
+def cut_extrema(signal):
+    """
+    Cut the extrema of the signal if they have invalid values
+    """
+    if signal[0]== 0 or np.isnan(signal[0]):
+        #remove nan blocks at the beginning
+        #get first valid sample
+        first_valid = np.where(~np.isnan(signal) & (signal != 0))[0][0]
+        signal = signal[first_valid:]
+    if signal[-1] == 0 or np.isnan(signal[-1]):
+        #remove nan blocks at the end
+        #get last valid sample
+        last_valid = np.where(~np.isnan(signal) & (signal != 0))[0][-1]
+        signal = signal[:last_valid+1]
+    return signal
+
 def PreProcess(signal,fs,units):
     
     '''
