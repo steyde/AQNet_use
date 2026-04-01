@@ -1,8 +1,8 @@
 # AQNet_use
 
-This is a reduced version of the FSS repository which contains all, and only, the files needed to use the network
+This is a reduced version of the repository related to the article "A robust deep learning framework for automated fetal behavioral state classification: leveraging multi-center datasets to improve antepartum heart rate monitoring" which contains the files needed to use the network
 
-mail for inquiries about the code: giulio.steyde@polimi.it
+mail for inquiries: giulio.steyde@polimi.it
 
 authors:
 Giulio Steyde 
@@ -14,6 +14,6 @@ Marta Campanile
 Giovanni Magenes
 William P. Fifer
 Nicolò Pini
-Maria G. Signorini1
+Maria G. Signorini
 
 
