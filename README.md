@@ -1,6 +1,6 @@
 # AQNet_use
 
-This is a reduced version of the repository related to the article "A robust deep learning framework for automated fetal behavioral state classification: leveraging multi-center datasets to improve antepartum heart rate monitoring" which contains the files needed to use the network
+This is a reduced version of the repository related to the article "A robust deep learning framework for automated fetal behavioral state classification: leveraging multi-center datasets to improve antepartum heart rate monitoring" published on Biomedical Signal Processing and Control (2026), which contains the files needed to use the network
 
 mail for inquiries: giulio.steyde@polimi.it
 
